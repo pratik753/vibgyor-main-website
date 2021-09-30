@@ -1,0 +1,299 @@
+/* Navigation Section */
+
+#navbar {
+    flex-direction: column;
+    height: 130px;
+}
+
+#navbar ul li a {
+    visibility: hidden;
+    padding: 0px 7px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+
+/* Home Section */
+
+#home {
+    height: 170px;
+    padding: 2px 6px;
+}
+
+#home::before {
+    height: 170px;
+}
+
+#home p {
+    font-size: 12px;
+}
+
+
+/* Our Services */
+
+#services {
+    flex-direction: column;
+}
+
+
+/* Clients Section */
+
+#btn {
+    padding: 0px 17px;
+    margin: 10px;
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 252, 252);
+    /* border: 2px solid brown; */
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('https://michaelhyatt.com/wp-content/uploads/2010/06/iStock_000007346114Small.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#client-section {
+    height: 100%;
+    position: relative;
+    font-size: 1rem;
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 66px;
+    height: 555px;
+    padding: 0px;
+    margin: -8px;
+}
+
+
+/* About*/
+
+#Vission {
+    padding: 0px 22px;
+    height: 372px;
+}
+
+#Vissionp {
+    font-family: 'calibri', calibri;
+    font-size: .6rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Vissionhead {
+    margin-top: 22px;
+    font-family: 'calibri', calibri;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 12px;
+    z-index: -2;
+    margin-left: 5px;
+}
+
+#vissiontext {
+    margin-left: 204px;
+    display: flex;
+    width: 65%;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.title-heading {
+    background: #ffc107;
+    display: inline-block;
+    color: #000;
+    padding: 11px 10px;
+    margin: 6px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+#imgid {
+    z-index: -2;
+    margin-left: 11px;
+    margin-bottom: 9px;
+    height: 90px;
+    width: 90px;
+    margin-top: 28px;
+}
+
+#foot {
+    text-align: left;
+}
+
+#foot h4 {
+    color: rgb(119, 228, 228);
+    font-family: 'Bree Serif', serif;
+    margin-top: 2px;
+    font-size: .7rem;
+}
+
+#foot p {
+    font-family: 'calibri', calibri;
+    margin: 0px;
+    font-size: 0.7rem;
+    padding: 2px 0px;
+}
+
+iframe {
+    height: 200px;
+    width: 209px;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    position: absolute;
+    left: 70%;
+    margin-top: 121px;
+    margin-left: -116px;
+}
+
+
+/* <!-- Dev By Pratik Kumar --> */
+
+
+/* Contact Us Section */
+
+#contact-box form {
+    width: 80%;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: rgb(75, 71, 71);
+    color: white;
+}
+
+
+/* utility class */
+
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 26px;
+    padding: 12px;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    padding: 12px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+#last {
+    text-align: center;
+    margin: 18px;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    color: rgb(222, 206, 242);
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #212529;
+}
+
+.button2 {
+    visibility: hidden;
+    position: absolute;
+    left: 82%;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 4px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: -140px;
+}
+
+.button {
+    visibility: hidden;
+    position: absolute;
+    left: 82%;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 4px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: -170px;
+}
+
+
+/* ///////////////////////// */
+
+.vertical {
+    /* margin-bottom: 100px; */
+    border-left: 5px solid rgb(157, 195, 255);
+    height: 134px;
+    position: absolute;
+    left: 70%;
+    z-index: -2;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+
+
+/* ///////////////////////// */
+
+#login-box input,
+#login-box textarea {
+    height: 50%;
+    width: 94%;
+    margin: 11px 0px;
+    padding: .5rem;
+    border-radius: 9px;
+    font-size: .9rem;
+    -webkit-appearance: none;
+}

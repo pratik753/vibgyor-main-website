@@ -1,0 +1,37 @@
+.tophr {
+    border: 3px solid rgb(178, 126, 4);
+    width: 19%;
+}
+
+.divderhr {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.firstdiv {
+    height: 90%;
+    /* background-color: rgb(215, 216, 216); */
+}
+
+.spacebt {
+    width: 50%;
+}
+
+.head {
+    color: #000;
+    font-family: oswald, Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+/* sectioncolor */
+
+.sectioncolor1 {
+    background-color: rgb(230, 244, 247);
+}
+
+.sectioncolor2 {
+    background-color: rgb(250, 252, 236);
+}

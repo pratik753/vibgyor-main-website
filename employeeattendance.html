@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/favicon.png">
+    <title>Vibgyor Advisors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins' , sans-serif;
+        }
+
+        #attendance {
+        position: relative;
+    /* z-index: -1; */
+    /* top: 10px; */
+        }
+
+       #attendance::before {
+        content: "";
+        position: absolute;
+        background: rgb(129, 213, 252) no-repeat center center;
+        height: 100%;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.4;
+        }
+
+        #attendance-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 34px;
+}
+
+#attendance-box input,
+#attendance-box textarea {
+    height: 50%;
+    width: 50%;
+    margin: 11px 0px;
+    padding: .5rem;
+    border-radius: 9px;
+    font-size: .9rem;
+    -webkit-appearance: none;
+}
+
+#attendance-box form {
+    width: 50%;
+}
+
+#attendance-box label {
+    font-size: 1.3rem;
+    /* font-family: 'Bree Serif', serif; */
+}
+
+#imgattendance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonclassattendance {
+    font-family: 'calibri', calibri;
+    background-color: rgb(80, 177, 241);
+    color: cornsilk;
+    height: 100%;
+    width: 48%;
+    border: 2px solid rgb(27, 12, 231);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 1px -10px;
+    margin: 7px;
+}
+
+.buttonclassattendance:hover {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+
+.buttonclass {
+    font-family: 'calibri', calibri;
+    background-color: rgb(60, 62, 60);
+    color: cornsilk;
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 1px 2px;
+    margin: 7px;
+}
+
+.buttonclass:hover {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+    </style>
+
+</head>
+
+<body>
+    <h1 style="padding:20px;">Attendance </h1>
+    <section id="attendance">
+        <br>
+        <div id="attendance-box">
+            <form action="">
+                <h1 style="padding-bottom: 20px;">Mark Your Presence</h1>
+                <!-- <img id="imglogin" src="image/login.png" width="200" height="200"> -->
+
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input id="email" name="myname" placeholder="Email " type="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Password:</label><br>
+                    <input id="phone" name="myname" placeholder="Password " type="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">First Name:</label><br>
+                    <input id="name" name="myfullname" placeholder="First Name " type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Last Name:</label><br>
+                    <input id="name" name="myfullname" placeholder="Last Name " type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Designation:</label><br>
+                    <input id="name" name="myfullname" placeholder="Designation " type="text" required>
+                </div>
+                <!-- <div class="form-group">
+                   <label for="phone">Remember me:</label> 
+                    <input id="phone" name="remember" type="checkbox">
+                </div> -->
+                <button class="buttonclasslogin">Mark Attendance</button>
+            </form>
+        </div>
+    </section>
+
+ 
+</body>
+
+</html>
